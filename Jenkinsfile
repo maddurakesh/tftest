@@ -6,7 +6,7 @@ pipeline {
        
         GCP_PROJECT = 'project2-449918'  // Replace with your GCP project ID
         GCP_CREDENTIALS = credentials('gcp-key') // Jenkins credential ID for Google Cloud service account
-        GIT_REPO_URL = 'https://github.com/maddurakesh/mypvt.git' // Your Git repository URL
+        GIT_REPO_URL = 'https://github.com/maddurakesh/tftest.git' // Your Git repository URL
         GIT_BRANCH = 'main' // The branch you want to use
     }
 
