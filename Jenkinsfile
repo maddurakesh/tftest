@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage('Checkout Git Repo') {
             steps {
-                echo "Cloning Terraform repository from Git..."
+                echo "Cloning Terraform repository from Git...test"
                 git url: GIT_REPO_URL, branch: GIT_BRANCH
             }
         }
