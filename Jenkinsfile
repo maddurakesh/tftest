@@ -21,7 +21,7 @@ pipeline {
 
         stage('Terraform Init') {
             steps {
-                echo "Initializing Terraform..."
+                echo "Initializing Terraform...aaa"
                 sh 'terraform init'
             }
         }
